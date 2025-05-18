@@ -23,7 +23,7 @@ A aplicacao tambem atende aos criterios de um projeto de Orientacao a Objetos, i
 - Validacao contra dados salvos.
 
 ### 3. Escolher Linguagem
-- Apas o login, o usuario escolhe uma linguagem (C, Java ou Python).
+- Apos o login, o usuario escolhe uma linguagem (C, Java ou Python).
 
 ### 4. Visualizar e Acessar Fases
 - O usuario visualiza quais fases estao desbloqueadas.
@@ -84,11 +84,15 @@ python main.py
 - Se `tkinter` nao funcionar, certifique-se de que esta usando se a versao usado do Python ja contem o tkinter, caso contrario, instale:
 
 Para Windows:
+```
 pip install tk
+```
 
 Para Linux (Debian/Ubuntu):
+```
 sudo apt-get install python3-tk
 
+```
 ---
 
 ## Tecnologias Utilizadas
