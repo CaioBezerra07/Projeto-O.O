@@ -1,0 +1,116 @@
+{
+  "Python": {
+    "1": [
+      {
+        "enunciado": "Qual destas é uma estrutura de repetição em Python?",
+        "alternativas": ["if", "for", "def", "import"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Como se declara uma função em Python?",
+        "alternativas": ["func myFunc():", "function myFunc()", "def myFunc():", "void myFunc()"],
+        "correta": 2
+      }
+    ],
+    "2": [
+      {
+        "enunciado": "Como se cria uma lista em Python?",
+        "alternativas": ["list()", "array()", "[]", "{}"],
+        "correta": 2
+      },
+      {
+        "enunciado": "Como acessar o primeiro item de uma lista `a`?",
+        "alternativas": ["a(0)", "a[0]", "a.0", "a{0}"],
+        "correta": 1
+      }
+    ],
+    "3": [
+      {
+        "enunciado": "Qual método adiciona item em lista?",
+        "alternativas": ["add()", "append()", "push()", "insert()"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Qual saída de `print(type(3.14))`?",
+        "alternativas": ["<class 'int'>", "<class 'float'>", "<float>", "float"],
+        "correta": 1
+      }
+    ]
+  },
+  "Java": {
+    "1": [
+      {
+        "enunciado": "Qual destas é uma palavra-chave em Java?",
+        "alternativas": ["foreach", "print", "Scanner", "class"],
+        "correta": 3
+      },
+      {
+        "enunciado": "Como se cria um objeto de uma classe?",
+        "alternativas": ["Classe obj = new Classe();", "obj = Classe()", "new Classe obj;", "create Classe();"],
+        "correta": 0
+      }
+    ],
+    "2": [
+      {
+        "enunciado": "Qual modificador de acesso torna algo visível a todos?",
+        "alternativas": ["private", "public", "protected", "static"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Qual método é o ponto de entrada em um programa Java?",
+        "alternativas": ["start()", "main()", "run()", "public static void"],
+        "correta": 1
+      }
+    ],
+    "3": [
+      {
+        "enunciado": "Qual é a classe base de todas as classes em Java?",
+        "alternativas": ["Base", "Object", "Root", "Main"],
+        "correta": 1
+      },
+      {
+        "enunciado": "O que significa `null` em Java?",
+        "alternativas": ["Zero", "Vazio", "Sem referência", "Nada"],
+        "correta": 2
+      }
+    ]
+  },
+  "C": {
+    "1": [
+      {
+        "enunciado": "Como declaramos uma variável inteira em C?",
+        "alternativas": ["int x;", "integer x;", "x = int;", "int: x"],
+        "correta": 0
+      },
+      {
+        "enunciado": "Qual biblioteca padrão inclui printf?",
+        "alternativas": ["stdio.h", "stdlib.h", "math.h", "string.h"],
+        "correta": 0
+      }
+    ],
+    "2": [
+      {
+        "enunciado": "Qual operador é usado para endereço de memória?",
+        "alternativas": ["@", "#", "&", "*"],
+        "correta": 2
+      },
+      {
+        "enunciado": "Qual extensão padrão de um arquivo em C?",
+        "alternativas": [".java", ".cpp", ".c", ".py"],
+        "correta": 2
+      }
+    ],
+    "3": [
+      {
+        "enunciado": "Qual palavra-chave aloca memória dinamicamente?",
+        "alternativas": ["alloc", "malloc", "memory", "new"],
+        "correta": 1
+      },
+      {
+        "enunciado": "O que faz o comando `return 0;`?",
+        "alternativas": ["Retorna nada", "Erro", "Sucesso", "Fim da função"],
+        "correta": 2
+      }
+    ]
+  }
+}
