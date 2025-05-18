@@ -18,7 +18,7 @@ class TelaLinguagem(tk.Tk):
         self.label_font = font.Font(family="Segoe UI", size=12)
         self.button_font = font.Font(family="Segoe UI", size=12, weight="bold")
 
-        # Frame principal - agora expansível
+        # Frame principal 
         frame = tk.Frame(self, bg="white")
         frame.pack(fill="both", expand=True, padx=40, pady=40)
 
@@ -57,7 +57,7 @@ class FaseSelector(tk.Toplevel):
         self.master = master
         self.title(f"Fases de {linguagem}")
         self.geometry("400x500")
-        self.resizable(True, True)  # Agora pode esticar
+        self.resizable(True, True) 
         self._centralizar_janela(400, 500)
         self.configure(bg="#2c3e50")
 
