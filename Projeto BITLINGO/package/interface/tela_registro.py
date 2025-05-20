@@ -7,7 +7,7 @@ import sys
 class TelaRegistro(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Cadastro - Aprenda Programação")
+        self.title("Cadastro - BITLINGO")
         self.geometry("400x500")
         self.resizable(True, True)
         self._centralizar_janela(400, 500)

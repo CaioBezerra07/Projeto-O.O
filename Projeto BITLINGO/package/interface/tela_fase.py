@@ -11,7 +11,7 @@ class TelaFase(tk.Toplevel):
         self.fase = fase
         self.master = master
         self.title(f"Fase {fase} - {linguagem}")
-        self.geometry("600x400")
+        self.geometry("800x600")
         self.resizable(True, True)
         self.configure(bg="#2c3e50")
 

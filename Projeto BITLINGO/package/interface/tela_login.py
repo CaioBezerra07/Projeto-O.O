@@ -7,7 +7,7 @@ from package.interface.tela_linguagem import TelaLinguagem
 class TelaLogin(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Login Moderno - Aprenda Programação")
+        self.title("Faça o login - BITLINGO")
         self.geometry("400x500")
         self.resizable(True, True)
         self._centralizar_janela(400, 500)

@@ -115,6 +115,10 @@ sudo apt-get install python3-tk
 
 ---
 
+![UML DO PROJETO:](dados/uml_projeto.png)
+
+---
+
 ## Autor
 
-Projeto desenvolvido por Caio Breno como atividade pratica da disciplina **Orientacao a Objetos - UnB Gama .
+Projeto desenvolvido por Caio Breno como atividade pratica da disciplina Orientacao a Objetos - UnB Gama.

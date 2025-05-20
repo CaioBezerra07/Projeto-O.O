@@ -7,7 +7,7 @@ class TelaLinguagem(tk.Tk):
     def __init__(self, usuario):
         super().__init__()
         self.usuario = usuario
-        self.title("Escolha de Linguagem - Aprenda Programação")
+        self.title("Escolha de Linguagem - BITLINGO")
         self.geometry("400x500")
         self.resizable(True, True)
         self._centralizar_janela(400, 500)
