@@ -10,6 +10,16 @@
         "enunciado": "Como se declara uma função em Python?",
         "alternativas": ["func myFunc():", "function myFunc()", "def myFunc():", "void myFunc()"],
         "correta": 2
+      },
+      {
+        "enunciado": "Qual palavra-chave é usada para importar bibliotecas em Python?",
+        "alternativas": ["include", "require", "import", "use"],
+        "correta": 2
+      },
+      {
+        "enunciado": "Qual destas variáveis está corretamente nomeada em Python?",
+        "alternativas": ["2numero", "numero_total", "total-n", "class"],
+        "correta": 1
       }
     ],
     "2": [
@@ -21,6 +31,16 @@
       {
         "enunciado": "Como acessar o primeiro item de uma lista `a`?",
         "alternativas": ["a(0)", "a[0]", "a.0", "a{0}"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Como adicionar um item no final de uma lista `x`?",
+        "alternativas": ["x.add(item)", "x.append(item)", "x.put(item)", "x.push(item)"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Qual operador é usado para comparar dois valores?",
+        "alternativas": ["=", "==", "!=", "equals"],
         "correta": 1
       }
     ],
@@ -34,6 +54,16 @@
         "enunciado": "Qual saída de `print(type(3.14))`?",
         "alternativas": ["<class 'int'>", "<class 'float'>", "<float>", "float"],
         "correta": 1
+      },
+      {
+        "enunciado": "O que `len('Python')` retorna?",
+        "alternativas": ["6", "7", "5", "Erro"],
+        "correta": 0
+      },
+      {
+        "enunciado": "Qual o resultado de `3 * 'a'`?",
+        "alternativas": ["aaa", "a3", "Erro", "['a', 'a', 'a']"],
+        "correta": 0
       }
     ]
   },
@@ -48,6 +78,16 @@
         "enunciado": "Como se cria um objeto de uma classe?",
         "alternativas": ["Classe obj = new Classe();", "obj = Classe()", "new Classe obj;", "create Classe();"],
         "correta": 0
+      },
+      {
+        "enunciado": "Qual símbolo é usado para comentar uma linha?",
+        "alternativas": ["//", "#", "/*", "--"],
+        "correta": 0
+      },
+      {
+        "enunciado": "Qual destes tipos é usado para números inteiros?",
+        "alternativas": ["double", "int", "float", "String"],
+        "correta": 1
       }
     ],
     "2": [
@@ -60,6 +100,16 @@
         "enunciado": "Qual método é o ponto de entrada em um programa Java?",
         "alternativas": ["start()", "main()", "run()", "public static void"],
         "correta": 1
+      },
+      {
+        "enunciado": "Como imprimimos algo no console?",
+        "alternativas": ["echo()", "print()", "System.out.println()", "Console.log()"],
+        "correta": 2
+      },
+      {
+        "enunciado": "Qual estrutura é usada para múltiplas opções?",
+        "alternativas": ["if-else", "switch", "loop", "case-if"],
+        "correta": 1
       }
     ],
     "3": [
@@ -71,6 +121,16 @@
       {
         "enunciado": "O que significa `null` em Java?",
         "alternativas": ["Zero", "Vazio", "Sem referência", "Nada"],
+        "correta": 2
+      },
+      {
+        "enunciado": "Qual palavra-chave impede herança?",
+        "alternativas": ["static", "final", "private", "abstract"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Como se chama a reutilização de código através de herança?",
+        "alternativas": ["Abstração", "Encapsulamento", "Herança", "Polimorfismo"],
         "correta": 2
       }
     ]
@@ -86,6 +146,16 @@
         "enunciado": "Qual biblioteca padrão inclui printf?",
         "alternativas": ["stdio.h", "stdlib.h", "math.h", "string.h"],
         "correta": 0
+      },
+      {
+        "enunciado": "Como se inicia a função principal em C?",
+        "alternativas": ["void main()", "int main()", "start()", "function main()"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Como escrever um comentário de linha única?",
+        "alternativas": ["//", "#", "/*", "--"],
+        "correta": 0
       }
     ],
     "2": [
@@ -98,18 +168,38 @@
         "enunciado": "Qual extensão padrão de um arquivo em C?",
         "alternativas": [".java", ".cpp", ".c", ".py"],
         "correta": 2
+      },
+      {
+        "enunciado": "O que a função scanf() retorna?",
+        "alternativas": ["Sempre 0", "Número de variáveis corretamente lidas", "Número de caracteres lidos", "Tipo do dado lido"],
+        "correta": 1
+      },
+      {
+        "enunciado": "Como se imprime um número inteiro?",
+        "alternativas": ["printf('%d')", "print(%d)", "cout <<", "echo()"],
+        "correta": 0
       }
     ],
     "3": [
       {
-        "enunciado": "Qual palavra-chave aloca memória dinamicamente?",
-        "alternativas": ["alloc", "malloc", "memory", "new"],
-        "correta": 1
+        "enunciado": "Qual é a função da diretiva #define?",
+        "alternativas": ["Declarar funções", "Incluir bibliotecas", "Criar constantes ou macros", "Criar loops"],
+        "correta": 2
       },
       {
         "enunciado": "O que faz o comando `return 0;`?",
         "alternativas": ["Retorna nada", "Erro", "Sucesso", "Fim da função"],
         "correta": 2
+      },
+      {
+        "enunciado": "O que o operador `*` faz em ponteiros?",
+        "alternativas": ["Multiplica", "Declara ponteiro", "Desreferencia", "Soma"],
+        "correta": 2
+      },
+      {
+        "enunciado": "Como definimos uma struct em C?",
+        "alternativas": ["structure Pessoa { int idade; };", "struct Pessoa { int idade; };", "define Pessoa { int idade; };", "obj Pessoa { int idade; };"],
+        "correta": 1
       }
     ]
   }
