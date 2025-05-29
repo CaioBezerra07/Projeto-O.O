@@ -81,6 +81,9 @@ python main.py
 
 ### Problemas comuns
 
+- Erro ao rodar no VS Code, PyCharm ou editores similares:
+Este programa foi desenvolvido para ser executado diretamente no terminal. Rodá-lo dentro de IDEs pode causar erros no programa.
+
 - Se `tkinter` nao funcionar, certifique-se de que esta usando se a versao usado do Python ja contem o tkinter, caso contrario, instale:
 
 Para Windows:
